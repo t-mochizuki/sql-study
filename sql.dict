@@ -7,13 +7,12 @@ where
 >
 <=
 <
-null
 and
 or
 in
 is null
 is not null
-group by
+group by ()
 count
 sum
 max
@@ -37,8 +36,23 @@ partition by
 rank()
 dense_rank()
 insert
-into
+into table_name
 values
-delete from
-update
+delete from table_name
+update table_name
 set
+
+\?
+create user name
+\du
+create database name owner user_name
+\l
+\connect database_name
+create table name
+\dt
+\d table_name
+drop database if exists name
+drop role if exists name
+\q
+limit
+offset
