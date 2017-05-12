@@ -1,0 +1,44 @@
+select
+from
+where
+=
+<>
+>=
+>
+<=
+<
+null
+and
+or
+in
+is null
+is not null
+group by
+count
+sum
+max
+min
+having
+order by
+desc
+asc
+create view
+case
+when
+then
+else
+end
+union
+intersect
+except
+all
+over
+partition by
+rank()
+dense_rank()
+insert
+into
+values
+delete from
+update
+set
