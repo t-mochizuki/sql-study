@@ -10,7 +10,10 @@ services:
       - 3307:3306
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: example
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: user
+      MYSQL_PASSWORD: user
+      MYSQL_DATABASE: exercise
 
   adminer:
     image: adminer:4.7.6
