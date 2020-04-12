@@ -5,6 +5,7 @@ services:
 
   db:
     image: mariadb:10.5.2
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: example
